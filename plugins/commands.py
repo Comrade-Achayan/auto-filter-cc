@@ -102,7 +102,7 @@ async def start(bot, cmd):
                     )
             )
     else:
-        me = await bot.get.me()
+        me = await bot.get_me()
         await cmd.reply_text(
             text=Translation.START_TEXT.format(cmd.from_user.first_name, me.first_name),
             parse_mode="html",
