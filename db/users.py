@@ -19,10 +19,10 @@ async def add_to_userbase(user_id: int):
     return
 
 async def get_users():
-    user_docs = user_collection.find()
+    user_docs = user_collectionblah.find()
     user_ids = []
     for doc in user_docs:
-        user_ids.append(doc['_id'])
+        user_ids.append(doc['id'])
         
     return user_ids
     
