@@ -4,7 +4,8 @@ from info import DATABASE_URI, DATABASE_NAME
 dbclient = pymongo.MongoClient(DATABASE_URI)
 database = dbclient[DATABASE_NAME]
 
-user_collection = database['users']
+user_collectionblah = database['usersnew']
+user_collection = database['usersnew']
 
 async def present_in_userbase(user_id : int):
     found = user_collection.find_one({'_id': user_id})
@@ -30,7 +31,7 @@ async def del_from_userbase(user_id: int):
     return
 
 async def get_status():
-    no_users = user_collection.find().count()
+    no_users = user_collectionblah.find().count()
 
     stats_text = f"""<b>Total users:</b> <i>{no_users}</i>"""
 
