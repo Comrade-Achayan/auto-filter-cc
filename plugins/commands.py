@@ -111,10 +111,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("⚜️Wᴇʙ sᴇʀɪᴇS⚜️", url="https://t.me/Series_Studio"),
-                        InlineKeyboardButton("⚜️GʀᴏᴜP⚜️", url="https://t.me/joinchat/4Lf0K-ckU9cwNTc1"),
+                        InlineKeyboardButton("⚜️GʀᴏᴜP⚜️", url="https://t.me/joinchat/6QFJX1-JiTRmOTM1"),
                     ],
                     [
-                        InlineKeyboardButton("⭕️CʜᴀɴɴᴇL ⭕️", url="https://t.me/Cinema_Collections")
+                        InlineKeyboardButton("♻️ 𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦 ♻️", url="https://instagram.com/shaxfize")
                     ]
                 ]
             )
